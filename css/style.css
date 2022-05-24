@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main {
+  background: #7b879d;
+  margin: 4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 11px;
+}
+
+.main .container {
+  margin: 2rem;
+  padding: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-size: 12px;
+  font-family: sans-serif;
+  background: white;
+  width: 17rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-radius: 9px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+          box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.main .container .img {
+  border-radius: 9px;
+}
+
+.main .container img {
+  border-radius: 9px;
+  height: 100%;
+  width: 13rem;
+}
+
+.main .container h3 {
+  padding: 0.5rem;
+  font-size: 15px;
+}
+
+.main .container p {
+  padding: 0.5rem;
+  color: #8a8686;
+}
+
+.main .container:hover {
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -webkit-transform: scale(2/3);
+          transform: scale(2/3);
+}
+/*# sourceMappingURL=style.css.map */
